@@ -1,0 +1,303 @@
+body {
+	margin: 0;
+	color: #3c0c0c;
+/*	background-color: #cc9966;  */
+	background-color: #6699cc;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*--------------- Cursor ------------------------*/
+.cursor{
+	cursor:crosshair !important;	
+}
+/*--------------- Breadcrumb ------------------------*/
+.bread{
+	width: 552px;
+	background-color: #fff0e1;
+	line-height: 16px;
+	float: right;
+	display: block;
+	font-size: 11px;
+	padding: 0 15px;
+}
+.bread a{
+	color: #3c0c0c;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*-----------  Drop Case Css --------------*/
+div.drop{
+	background: url(images/about.gif) no-repeat;
+	height: 38px;
+}
+div.drop span{
+	display:none;
+}
+/*-------------------------------------------*/
+.drop_b{
+	background: url(images/b.gif) no-repeat left top;
+	height: 30px;
+	width: 32px;
+	display: block;
+	float: left;
+}
+.drop_b span{
+	display: none;
+}
+.drop_t{
+	background: url(images/t.gif) no-repeat left top;
+	height: 30px;
+	width: 35px;
+	display: block;
+	float: left;
+}
+.drop_t span{
+	display: none;
+}
+.drop_m{
+	background: url(images/m.gif) no-repeat left top;
+	height: 30px;
+	width: 43px;
+	display: block;
+	float: left;
+}
+.drop_m span{
+	display: none;
+}
+/*--------------- -----------------------*/
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+h3{
+	font-size: 16px;
+}
+#container{
+	width: 778px;
+	margin: 0 auto;
+}
+#header{
+	width: 100%;
+	height:151px;
+	float:left;
+	background: url(images/Banner1.png) no-repeat left top;
+	}
+#content{
+	width:100%;
+	clear:both;
+	background:url(images/bg.gif) repeat-y left top;
+	}
+#left_panel{
+	width:196px;
+	float:left;
+	height: 350px;
+}
+#left_panel ul{
+	margin: 10px;
+	padding: 0;
+	list-style-type: none;
+}
+#left_panel ul li {
+	height: 45px;
+	}
+#left_panel ul li a{
+	display: block;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 45px;
+	color: #ffffff;
+	text-decoration: none;
+}
+#left_panel ul li a:hover{
+	color: #3c0c0c;
+}
+/*---------- Right Panel ------*/
+#right_panel{
+	width: 291px;
+	float: right;
+	margin: 0 0 10px 10px;
+}
+#right_panel p{
+	margin: 0;
+	padding: 0;
+}
+#right_panel img{
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	border: 0;
+}
+/*----------- Right Panel ends---------------*/
+#img1{
+	float: left;
+	width: auto;
+	height: 350px;
+}
+#img1 img{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#text{
+	width: 552px;
+	float: left;
+	text-align: justify;
+	font-size: 12px;
+	line-height: 16px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	overflow: auto;
+	height: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#text_form{
+	width: 552px;
+	float: left;
+	text-align: justify;
+	font-size: 12px;
+	line-height: 16px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+#footer{
+	clear: both;
+	color: #ffffff;
+	background-color: #3c0c0c;
+	text-align: center;
+	font-size: 11px;
+	line-height: 24px;
+	height: 24px;
+}
+#footer a{
+	color: #f9f9f9;
+	font-size: 11px;
+	text-decoration: none;
+	padding: 0 10px;
+}
+.clear {
+	clear: both;
+}
+.footer-note {
+	font-size: 10px;
+	text-align: center;
+	line-height: 10px;
+	color: #f9f9f9;
+}
+.special_formatting{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 14px;
+	color: #3c0c0c;
+}
+a {
+	outline: none;
+}
+a:active {
+	outline: none;
+}
+.shopping{
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../../img/shoppingcart.gif) no-repeat left center;
+	text-indent: 30px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	float: right;
+	display: block;
+	margin-top: 15px;
+}
+.shopping:hover{
+	color: #000000;
+}
+/*------- stacking css ------*/
+.stack{
+	position: absolute;
+	z-index: 1;
+	left: 700px;
+	top: 373px;
+}
+.blur{
+	background: transparent url(images/coffee_bean1.gif);
+	color: inherit;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+.shadow,
+.content_shadow{
+	position: relative;
+	bottom: 2px;
+	right: 2px;
+}
+.shadow{
+	background: transparent url(images/coffee_bean2.gif);
+}
+.content_shadow{
+	background-color: #ffffff; 
+	color: #000000; 
+	border: 1px solid #000000; 
+	padding: .5em 2ex;
+}
+/*------- Enhancing links css ------*/	
+#text a{
+	background: url(images/hand.gif) no-repeat left center;
+	line-height: 20px;
+	padding-left: 35px;
+}
+/*------- round corner css ------*/
+.corners{
+	margin: 20px 0 0 0;
+	width: 95%;
+	clear: both;
+	background: #cc9966 url(images/top_left.gif) no-repeat left top;
+}
+#text .corners a{
+	background: none;
+	text-indent: 0;
+}
+.top_right{
+	background: url(images/top_right.gif) no-repeat right top;
+	display: block;
+	height: 10px;
+	line-height: 10px;
+	clear: both;
+}
+.corners .content{
+	display: block;
+	padding: 0 15px;
+	line-height: 16px;
+}
+.corners .content p{
+	margin: 5px 0;
+	padding: 0;
+}
+.bottom{
+	background: url(images/bottom_left.gif) no-repeat left bottom;
+	clear: both;
+	width: 100%;
+	height: 11px;
+	line-height: 11px;
+}
+.bottom span{
+	background: url(images/bottom_right.gif) no-repeat right bottom;
+	float: right;
+	height: 11px;
+	line-height: 11px;
+	width: 11px;
+}
+.underline{
+	text-decoration: underline;
+}
+/* mobile site home links*/
+#home_links{
+	display: none;
+}

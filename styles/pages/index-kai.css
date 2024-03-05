@@ -1,0 +1,49 @@
+
+			
+			#wrapper {
+				background: #666;
+				box-shadow: 0 0 10px #000;
+				width: 840px;
+				height: 420px;
+				padding: 30px;
+				margin: -205px 0 0 -380px;
+				position: absolute;
+				top: 60%;
+				left: 50%;
+			}
+			#carousel {
+				width: 840px;
+				height: 420px;
+				overflow: hidden;
+			}
+			#carousel img {
+				display: block;
+			}
+			#pager {
+				width: 200px;
+				position: absolute;
+				top: 30px;
+				left: 30px;
+			}
+			#pager a {
+				font-family: Impact, Verdana, Arial, sans-serif;
+				font-weight: bold;
+				font-size: 25px;
+				line-height: 35px;
+				color: #000;
+				text-decoration: none;
+				background: #666;
+				display: block;
+				height: 99px;
+				padding: 20px;
+				margin-bottom: 1px;
+			}
+			#pager a:hover {
+				color: #111;
+			}
+			#pager a.selected {
+				background: none;
+				color: #c30;
+			}
+						
+		

@@ -1,0 +1,28 @@
+/* Styles for the index page */
+
+.introduction ul {
+    list-style-type: none;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.introduction li {
+    display: block;
+    margin: 0 2rem 1rem 0; 
+}
+
+.introduction li img {
+    border: 1px solid #888;
+}
+
+.introduction li .name {
+    text-align: center;
+    display: block;
+}
+
+
+
+
